@@ -108,7 +108,7 @@ const Main = () => {
                                     handleCardClick("What is a LLM Model in AI?")
                                 }
                             >
-                                <p>What is a LLM Model in AI<?/p>
+                                <p>What is a LLM Model in AI</p>
                                 <img src={assets.bulb_icon} alt="" />
                             </div>
                             <div
