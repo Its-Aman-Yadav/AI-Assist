@@ -3,7 +3,7 @@
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background-color: #f0f4f9;
+	background-color: #303030;
 	padding: 10px 15px;
    
 }
@@ -24,7 +24,7 @@
  align-items: center;
  gap: 10px;
  padding: 10px 15px;
- background-color: #e6eaf1;
+ background-color: #393838;
  border-radius: 50px;
  font-size: 14px;
  color: grey;

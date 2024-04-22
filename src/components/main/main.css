@@ -3,14 +3,19 @@
     min-height: 100vh;
     padding-bottom: 15vh;
     position: relative;
+    background-color: 
+    #131314;
 }
+
+body { overflow: hidden }
+
 .main .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 22px;
     padding: 20px;
-    color: #585858;
+    color: #ffffff;
 }
 .main .nav img{
     width: 40px;
@@ -22,27 +27,41 @@
 }
 .main-container .greet{
     margin: 50px 0px;
+    text-align: center;
     font-size: 56px;
     color:#c4c7c5;
     font-weight: 500px;
 }
+
 .main .greet span{
+    background: -webkit-linear-gradient(16deg,#ff4b4b,#46a9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main .greet span{
+    text-align: center;
+    align-items: center;
     background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .main .cards{
     display: grid;
+    margin: 10px 10px 15px 10px;
+    background-color:  #110f0f;
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
     gap: 15px;
 }
 .main .card{
-    height: 200px;
-    padding: 15px;
-    background-color: #f0f4f9;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color: #353535;
     border-radius: 10px;
+    color: white;
     position: relative;
-    cursor: pointer;
+    cursor: pointer
 }
 .main .card img{
     width: 35px;
@@ -52,19 +71,21 @@
     border-radius: 20px;
     bottom: 10px;
     right: 10px;
-    background: white;
+    background: rgb(124, 123, 123);
 }
 .main .card p{
-    color: #585858;
     font-size: 17px;
+    color: white;
 }
 .main .card:hover{
-    background-color: #dfe4ea;
+    background-color: #5684d8;
 }
+
 .main-bottom {
     position: absolute;
     bottom: 0;
     width: 100%;
+    
     max-width: 900px;
     padding: 0px 20px;
     margin: auto;
@@ -73,8 +94,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    background-color: #f0f4f9;
+    gap: 0px;
+    background-color: #585858;
     padding: 10px 20px;
     border-radius: 50px;
 }
@@ -86,6 +107,7 @@
     flex: 1;
     background: transparent;
     border: 0;
+    color: rgb(198, 196, 196);
     outline: 0;
     padding: 8px;
     font-size: 18px;
@@ -95,16 +117,25 @@
     align-items: center;
     gap: 15px;
 }
+
+.search-box button {
+    background-color: #929292;
+    border-radius: 20%; /* Set background color to black */
+}
+
+
 .main .bottom-info{
     font-size: 13px;
     margin: 15px auto;
     text-align: center;
+    color: white;
     font-weight: 300;
 }
 .result{
     padding: 0px 5%;
     max-height: 70vh;
-    overflow-y: scroll;
+    color: white;
+    /* overflow-y: scroll; */
 }
 .result::-webkit-scrollbar{
     display: none;
@@ -114,6 +145,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    color: white;
 }
 .result img{
     width: 40px;

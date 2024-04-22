@@ -26,7 +26,7 @@ const Main = () => {
     return (
         <div className="main">
             <div className="nav">
-                <p>AI Assist</p>
+            <p>AI Assist</p>
                 <img src={assets.user} alt="" />
             </div>
             <div className="main-container">
@@ -77,6 +77,49 @@ const Main = () => {
                                 }}
                             >
                                 <p>Create a Simple landing landing page for a youtuber</p>
+                                <img src={assets.code_icon} alt="" />
+                            </div>
+                        </div>
+
+                        <div className="cards">
+                            <div
+                                className="card"
+                                onClick={() =>
+                                    handleCardClick(
+                                        "I am feeling bored"
+                                    )
+                                }
+                            >
+                                <p>I am feeling bored</p>
+                                <img src={assets.compass_icon} alt="" />
+                            </div>
+                            <div
+                                className="card"
+                                onClick={() =>
+                                    handleCardClick("Who is Virat Kohli?")
+                                }
+                            >
+                                <p>Who is virat Kohli</p>
+                                <img src={assets.message_icon} alt="" />
+                            </div>
+                            <div
+                                className="card"
+                                onClick={() =>
+                                    handleCardClick("What is a LLM Model in AI?")
+                                }
+                            >
+                                <p>What is a LLM Model in AI</p>
+                                <img src={assets.bulb_icon} alt="" />
+                            </div>
+                            <div
+                                className="card"
+                                onClick={() => {
+                                    handleCardClick(
+                                        "What is 200+200*55?"
+                                    );
+                                }}
+                            >
+                                <p>What is 200+200*55?</p>
                                 <img src={assets.code_icon} alt="" />
                             </div>
                         </div>
