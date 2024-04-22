@@ -65,7 +65,7 @@ const Main = () => {
                                     handleCardClick("How to make paneer tikka masala")
                                 }
                             >
-                                <p>How to make paneer tikka masala</p>
+                                <p>How to make paneer tikka masala?</p>
                                 <img src={assets.bulb_icon} alt="" />
                             </div>
                             <div
@@ -99,7 +99,7 @@ const Main = () => {
                                     handleCardClick("Who is Virat Kohli?")
                                 }
                             >
-                                <p>Who is virat Kohli</p>
+                                <p>Who is Virat Kohli?</p>
                                 <img src={assets.message_icon} alt="" />
                             </div>
                             <div
@@ -108,7 +108,7 @@ const Main = () => {
                                     handleCardClick("What is a LLM Model in AI?")
                                 }
                             >
-                                <p>What is a LLM Model in AI</p>
+                                <p>What is a LLM Model in AI<?/p>
                                 <img src={assets.bulb_icon} alt="" />
                             </div>
                             <div
