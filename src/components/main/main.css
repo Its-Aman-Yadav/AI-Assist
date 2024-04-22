@@ -7,7 +7,7 @@
     #131314;
 }
 
-body { overflow: hidden }
+body { overflow: hidden}
 
 .main .nav{
     display: flex;
@@ -135,7 +135,7 @@ body { overflow: hidden }
     padding: 0px 5%;
     max-height: 70vh;
     color: white;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 .result::-webkit-scrollbar{
     display: none;
