@@ -47,6 +47,7 @@
 .main .card img{
     width: 35px;
     padding: 5px;
+     background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
     position: absolute;
     border-radius: 20px;
     bottom: 10px;
@@ -123,8 +124,9 @@
     align-items: start;
     gap: 20px;
 }
+
 .loader{
-    width: 100%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -154,3 +156,4 @@ animation: loader 4s infinite linear;
     font-weight: 300px;
     line-height: 1.8;
 }
+
