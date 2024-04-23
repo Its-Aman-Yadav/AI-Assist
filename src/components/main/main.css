@@ -7,11 +7,12 @@
     #131314;
 }
 
-body { overflow: hidden}
+
+/* body { overflow: hidden} */
 
   
   .search-box {
-    margin-bottom: 10px;
+    margin-bottom: 2%;
   }
   
   @media screen and (max-width: 600px) {
@@ -21,7 +22,7 @@ body { overflow: hidden}
       left: 0;
       width: 100%;
       background-color: #fff; 
-      padding: 10px;
+      padding: 10%;
       box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1); 
     }
   }
@@ -31,12 +32,12 @@ body { overflow: hidden}
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 22px;
+    font-size: 100%;
     padding: 20px;
     color: #ffffff;
 }
 .main .nav img{
-    width: 40px;
+    width: 4%;
     border-radius: 50px;
 }
 .main-container{
@@ -44,9 +45,9 @@ body { overflow: hidden}
     margin: auto;
 }
 .main-container .greet{
-    margin: 50px 0px;
+    margin: 2% ;
     text-align: center;
-    font-size: 56px;
+    font-size: 300%;
     color:#c4c7c5;
     font-weight: 500px;
 }
@@ -66,10 +67,10 @@ body { overflow: hidden}
 }
 .main .cards{
     display: grid;
-    margin: 10px 10px 15px 10px;
+    margin: 1% 1% 1% 1%;
     background-color:  #110f0f;
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
-    gap: 15px;
+    gap: 1%;
 }
 .main .card{
     height: 100px;
@@ -118,8 +119,9 @@ body { overflow: hidden}
     border-radius: 50px;
 }
 .search-box img{
-    width: 24px;
-    cursor: pointer;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    cursor: pointer; 
 }
 .search-box input{
     flex: 1;
@@ -137,8 +139,9 @@ body { overflow: hidden}
 }
 
 .search-box button {
-    background-color: #929292;
-    border-radius: 20%; /* Set background color to black */
+    background-color:  #585858;
+    border-radius: 20%; 
+    border: #110f0f;
 }
 
 
@@ -162,11 +165,11 @@ body { overflow: hidden}
     margin: 40px 0px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2%;
     color: white;
 }
 .result img{
-    width: 40px;
+    width: 5%;
     border-radius: 50px;
 }
 .result-data{
@@ -202,8 +205,8 @@ animation: loader 4s infinite linear;
 }
 
 .result-data p{
-    font-size: 17px;
-    font-weight: 300px;
-    line-height: 1.8;
+    font-size: 100%;
+    font-weight: 300%;
+    line-height: 2;
 }
 
