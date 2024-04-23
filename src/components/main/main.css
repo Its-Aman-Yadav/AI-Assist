@@ -17,7 +17,7 @@ body { overflow: hidden}
   @media screen and (max-width: 600px) {
     .search-box {
       position: fixed;
-      bottom: 0;
+      bottom: 50%;
       left: 0;
       width: 100%;
       background-color: #fff; 
