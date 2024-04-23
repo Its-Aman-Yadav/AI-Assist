@@ -213,13 +213,15 @@ animation: loader 4s infinite linear;
 
 .search-box {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    bottom: 10%;
+    left: 20%; 
+    width: calc(70%); 
+    right: 20%;
     background-color: #585858;
-    padding: 10px 20px;
+    /* padding: % 2%; */
     border-radius: 50px;
 }
+
 
 .search-box input {
     flex: 1;
@@ -241,6 +243,6 @@ animation: loader 4s infinite linear;
 
 @media screen and (max-width: 600px) {
     .search-box {
-        padding: 5px 10px; /* Adjust padding for smaller screens */
+        padding: 1% 2%; 
     }
 }
