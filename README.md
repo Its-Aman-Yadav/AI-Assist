@@ -38,4 +38,4 @@ This project introduces a React-based web application that functions as a work a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Its-Aman-Yadav/Gemini-Clone.git
+   git clone https://github.com/Its-Aman-Yadav/AI-Assist.git
