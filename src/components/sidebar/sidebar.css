@@ -27,7 +27,7 @@
  background-color: #393838;
  border-radius: 50px;
  font-size: 14px;
- color: grey;
+ color: rgb(255, 255, 255);
  cursor: pointer;
 }
 .sidebar .recent{
@@ -47,7 +47,7 @@
     padding: 10px;
     padding-right: 40px;
     border-radius: 50px;
-    color: #282828;
+    color: #ffffff;
     cursor: pointer;
 
 }
